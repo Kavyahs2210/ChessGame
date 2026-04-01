@@ -43,7 +43,7 @@ export default function Square({ piece, isLight, isSelected, isLegal, isCapture,
       )}
       {isCapture && (
         <div style={{
-          position:'absolute', inset:0, borderRadius:0,
+          position:'absolute', inset:0,
           border: '6px solid rgba(0,0,0,0.22)',
           borderRadius: '50%',
           pointerEvents: 'none',
